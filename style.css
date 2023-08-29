@@ -8,12 +8,13 @@ header h1 {
   padding:20px 0;
 }
 
-nav {
+header nav {
   display: flex;
   background-color: #333333;
 }
 
-ul {
+header ul,
+main ul{
   display: flex;
   align-items: center;
   margin:auto 10%;
@@ -69,41 +70,123 @@ article a {
 }
 
 .container {
-  margin:auto 10%;
+  margin-top:40px;
   display: flex;
+  justify-content:center;
 }
 
 main {
   width: 740px;
-  margin-top: 40px;
 }
 
-article {
+main article {
   width: 740px;
   margin-bottom: 100px;
 }
 
-article img {
+main article img {
   width: 740px;
   height: 450px;
   object-fit: cover;
 }
 
-article h2 {
+main article h2 {
   color: #333333;
 }
 
-article ul {
+main article ul {
   margin-left: 0;
 }
 
-article li {
+main article li {
   color: #333333;
   font-size: 13px;
   margin-right: 20px;
 }
 
-article p {
+main article p {
   color: #333333;
   margin: 20px 40px;
+}
+
+aside {
+  margin-left:40px;
+}
+
+.author {
+  text-align: center;
+}
+
+.author img {
+  width: 100px;
+  height: 100px;
+  border-radius:50%;
+}
+
+.author h3,
+.author p {
+  font-size: 13px;
+  margin: 30px 0;
+  color: #333333;
+}
+
+.author h3{
+  text-align: center;
+}
+
+.author p {
+  width:350px;
+  text-align: left;
+}
+
+.ranking h3,
+.archive h3 {
+  font-size: 13px;
+  margin: 100px 0 30px 0;
+  color: #333333;
+  text-align: center;
+}
+
+.ranking article {
+  width: 350px;
+  margin-bottom: 40px;
+}
+
+.ranking article img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ranking article p {
+  font-size: 13px;
+  color: #333333;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.archive ul {
+  width: 90%;
+  list-style: none;
+  border-top: solid 1px #ccc;
+  margin-bottom: 20px;
+}
+
+.archive li a {
+  color: #333333;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.archive li {
+  border-bottom: solid 1px #ccc;
+  padding: 20px;
+}
+
+footer {
+  background-color: #eeeeee;
+}
+
+footer .content {
+  display: flex;
 }
