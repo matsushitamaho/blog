@@ -7,3 +7,103 @@ header h1 {
   margin:auto 10%;
   padding:20px 0;
 }
+
+nav {
+  display: flex;
+  background-color: #333333;
+}
+
+ul {
+  display: flex;
+  align-items: center;
+  margin:auto 10%;
+  width: 900px;
+  height: 40px;
+  list-style: none;
+}
+
+header li {
+  margin-right: 60px;
+}
+
+header li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.pickup {
+  margin:auto 10%;
+  display: flex;
+  justify-content: center;
+}
+
+.article {
+  width: 350px;
+  margin-top: 40px;
+}
+
+.article img {
+  width: 350px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.article:nth-child(2) {
+  margin:40px;
+}
+
+.article h2 {
+  font-size: 13px;
+  margin-top: 20px;
+  color: #333333;
+}
+
+.article a,
+article a {
+  font-size: 13px;
+  margin-top: 20px;
+  color: #333333;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin:auto 10%;
+  display: flex;
+}
+
+main {
+  width: 740px;
+  margin-top: 40px;
+}
+
+article {
+  width: 740px;
+  margin-bottom: 100px;
+}
+
+article img {
+  width: 740px;
+  height: 450px;
+  object-fit: cover;
+}
+
+article h2 {
+  color: #333333;
+}
+
+article ul {
+  margin-left: 0;
+}
+
+article li {
+  color: #333333;
+  font-size: 13px;
+  margin-right: 20px;
+}
+
+article p {
+  color: #333333;
+  margin: 20px 40px;
+}
