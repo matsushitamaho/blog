@@ -185,8 +185,64 @@ aside {
 
 footer {
   background-color: #eeeeee;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
 footer .content {
   display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+
+.item {
+  width:350px;
+  margin-top: 40px;
+}
+
+.item:nth-child(2) {
+  margin:40px;
+}
+
+.item:nth-child(2) ul {
+  list-style: none;
+  border-top: solid 1px #ccc;
+  margin-bottom: 20px;
+}
+
+.item:nth-child(2) li {
+  border-bottom: solid 1px #ccc;
+  padding: 15px;
+}
+
+.item h3 {
+  font-size: 15px;
+  margin-bottom: 40px;
+  color: #333333;
+}
+
+.item ul {
+  list-style: none;
+}
+
+.item p,
+.item li {
+  font-size: 13px;
+}
+
+.item p {
+  margin-bottom: 40px;
+  text-align: left;
+}
+
+.item li a {
+  text-decoration: none;
+  color: #333333;
+  font-size: 13px;
+}
+
+footer p {
+  font-size: 10px;
+  color: #333;
+  text-align: center;
 }
